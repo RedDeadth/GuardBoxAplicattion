@@ -18,7 +18,10 @@ fun LockerApp() {
         Locker("Locker 1"),
         Locker("Locker 2"),
         Locker("Locker 3"),
-        // Añade más casilleros aquí
+        Locker("Casillero Suizo"),
+        Locker("Casillero Norte"),
+        Locker("Casillero Oeste"),
+
     )}
 
     NavHost(navController = navController, startDestination = "lockerList") {
